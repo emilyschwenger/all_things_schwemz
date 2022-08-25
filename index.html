@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Things Schwemz</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("b.html"); 
+    });
+    </script> 
 </head>
 <body>
     
@@ -14,6 +20,5 @@
         -Albert Einstein
     </p>“Calculus required continuity, and continuity required the idea of the infinitely little, but nobody could discover what the infinitely little might be.” 
         -Bertrand Russell
-    <p> 
-    </p>
+    <div id="includedContent"></div>
 </html>
